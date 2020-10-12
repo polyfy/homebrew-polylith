@@ -1,5 +1,5 @@
-class PolyVERSION_NAME < Formula
-  desc "A tool used to develop Polylith based architectures in Clojure"
+class PolyMigratorVERSION_NAME < Formula
+  desc "A tool Used to migrate from lein-polyith to the new Polylith tool"
   homepage "https://github.com/polyfy/polylith"
   url "URL"
   sha256 "SHASUM"
