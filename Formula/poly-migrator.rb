@@ -1,8 +1,8 @@
-class Poly < Formula
-  desc "A tool used to develop Polylith based architectures in Clojure"
+class PolyMigrator < Formula
+  desc "A tool Used to migrate from lein-polyith to the new Polylith tool"
   homepage "https://github.com/polyfy/polylith"
-  url "https://github.com/polyfy/polylith/releases/download/v0.1.0-alpha3/poly-0.1.0-alpha3.tar.gz"
-  sha256 "186c94f58e96cdb6afe29c9837e21715e2076abaea4737259d7559be45ea264c"
+  url "https://github.com/polyfy/polylith/releases/download/v0.1.0-alpha3/poly-migrator-0.1.0-alpha3.tar.gz"
+  sha256 "1eb6bb59350944e3dd0c1d22cf43f32170aac8a2532919b22be36d71eb028d0a"
   license "EPL-1.0"
 
   bottle :unneeded
