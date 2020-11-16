@@ -1,4 +1,4 @@
-class PolyMigrator < Formula
+class PolyMigratorAT010Alpha5 < Formula
   desc "A tool Used to migrate from lein-polyith to the new Polylith tool"
   homepage "https://github.com/polyfy/polylith"
   url "https://github.com/polyfy/polylith/releases/download/v0.1.0-alpha5/poly-migrator-0.1.0-alpha5.tar.gz"
