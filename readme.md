@@ -19,7 +19,7 @@ Install poly-migrator cli:
 
 Once there is a new release of Polylith cli tools they needed to be published here via in this repository so they can be available via Homebrew. In order to make publishing process easy, this repository contains a bash script named `create-formula.sh` which creates a versioned formulae and updates the main formulae to use latest version of the tool. You can run it as following:
 
-```./create-formula.sh create-formula TEMPLATE VERSION URL SHASUM```
+```./create-formula.sh TEMPLATE VERSION URL SHASUM```
 - TEMPLATE: can be either `poly` or `poly-migrator`
 - VERSION: version string to be released
 - URL: url to the tarball that will be published 
