@@ -7,7 +7,7 @@ class PolyMigratorAT010Alpha9 < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "openjdk"
 
   uses_from_macos "ruby" => :build
 
