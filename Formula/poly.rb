@@ -1,8 +1,8 @@
 class Poly < Formula
   desc "A tool used to develop Polylith based architectures in Clojure"
   homepage "https://github.com/polyfy/polylith"
-  url "https://github.com/polyfy/polylith/releases/download/v0.1.0-alpha8/poly-0.1.0-alpha8.tar.gz"
-  sha256 "6242cf4b4aa5e3a46f38e98a5a22b07f4fad44a1fa90d292230d7abf9a032f16"
+  url "https://github.com/polyfy/polylith/releases/download/v0.1.0-alpha9/poly-0.1.0-alpha9.tar.gz"
+  sha256 "2f809c583b0bf6421ee3837c97ec329b396d6c5ba4e287cfb8f3cf7ec8ec0baf"
   license "EPL-1.0"
 
   bottle :unneeded
