@@ -7,12 +7,9 @@ class PolyVERSION_NAME < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk"
-
   uses_from_macos "ruby" => :build
 
   def install
     system "./install.sh", prefix
-    bin.env_script_all_files libexec/"bin", Language::Java.overridable_java_home_env
   end
 end
