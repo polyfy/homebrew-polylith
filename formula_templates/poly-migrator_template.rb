@@ -5,8 +5,6 @@ class PolyMigratorVERSION_NAME < Formula
   sha256 "SHASUM"
   license "EPL-1.0"
 
-  bottle :unneeded
-
   uses_from_macos "ruby" => :build
 
   def install
