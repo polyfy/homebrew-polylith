@@ -5,8 +5,6 @@ class PolyAT010Alpha6 < Formula
   sha256 "f6f92884711f61aa670fc16f665d390fa69f61bea69a20c25cc8c28b6f49b4aa"
   license "EPL-1.0"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   uses_from_macos "ruby" => :build

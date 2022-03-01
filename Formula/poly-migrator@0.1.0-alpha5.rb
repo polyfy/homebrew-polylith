@@ -5,8 +5,6 @@ class PolyMigratorAT010Alpha5 < Formula
   sha256 "b43cba621c8f0a5e21b1a71dacacaa96a3700bf6060f7caaa8dbf67dcf5f44d1"
   license "EPL-1.0"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   uses_from_macos "ruby" => :build
