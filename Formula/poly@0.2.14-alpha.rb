@@ -5,8 +5,6 @@ class PolyAT0214Alpha < Formula
   sha256 "027cddf1f818027c1ec28d233167a689fec7c0ba49daaf84198841642fb6c9bf"
   license "EPL-1.0"
 
-  bottle :unneeded
-
   uses_from_macos "ruby" => :build
 
   def install
