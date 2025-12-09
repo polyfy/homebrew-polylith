@@ -19,12 +19,12 @@ Once there is a new release of Polylith cli tools they needed to be published he
 - TEMPLATE: set to `poly`
 - VERSION: version string to be released
 - URL: url to the tarball that will be published 
-- SHASUM: sha256 for the tarball
+- SHASUM: sha256 for the tarball (e.g. `poly-0.3.31.tar.gz.sha256`)
 
 Example usage:
 
-`./create-formula.sh poly 0.2.13-alpha https://github.com/polyfy/polylith/releases/download/v0.2.13-alpha/poly-0.2.13-alpha.tar.gz 7fcb172f9f3f691662097f3f34ae87b00103a5063ef2941e035351b7cff99b08`
+`./create-formula.sh poly 0.3.31 https://github.com/polyfy/polylith/releases/download/v0.3.31/poly-0.3.31.tar.gz 16ab3de394898b44f696e2ec9a5ab2f7871760f6cd07893f19539e30e5e39088`
 
-This will create a formulae under `Formula/poly@0.1.0-alpha3.rb` and update `Formula/poly.rb` to latest version.
+This will create a formulae under `Formula/poly@0.3.31.rb` and update `Formula/poly.rb` to latest version.
 
 Each relase in main Polylith repository has the tarballs and shasum files created automatically. Those can be used to release a Homebrew version.
