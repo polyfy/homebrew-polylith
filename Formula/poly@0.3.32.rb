@@ -1,4 +1,4 @@
-class Poly < Formula
+class PolyAT0332 < Formula
   desc "A tool used to develop Polylith based architectures in Clojure"
   homepage "https://github.com/polyfy/polylith"
   url "https://github.com/polyfy/polylith/releases/download/v0.3.32/poly-0.3.32.tar.gz"
